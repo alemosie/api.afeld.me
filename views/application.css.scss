@@ -16,7 +16,7 @@
 
 .jsonpanel {
   font-size: 1.25em;
-
+  margin-left: 1em;
   // cover the screen
   // position: fixed;
   // top: 0;
@@ -76,8 +76,6 @@
   font-size: 12px;
   vertical-align: middle;
 }
-
-// 650
 
 @media (max-width: 900px) {
   .meta-links {
