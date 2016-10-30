@@ -56,7 +56,6 @@ helpers do
   end
 end
 
-
 get '/stylesheets/application' do
   scss :application
 end
