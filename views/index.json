@@ -1,6 +1,6 @@
 {
   "name": "Alexandra Siega",
-  "description": "Data Scientist, web dabbler, civic tech + dog enthusiast",
+  "bio": "Data scientist, web developer, civic tech + dog enthusiast",
   "url": "http://alexandrasiega.com",
   "location": {
     "current": {
@@ -20,6 +20,12 @@
         "country": "US"
       }
     ]
+  },
+  "skills" : {
+    "data_science": ["Python", "Pandas", "SQL"],
+    "web": ["Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
+    "business": ["technical writing", "project management", "briefing", "mentorship/teaching"],
+    "languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
   },
   "employment": {
     "current": {
@@ -95,17 +101,48 @@
       }
     ]
   },
+  "projects": [
+    {
+      "name": "SectorSalaries",
+      "description": "An Ember.js and Rails API app that compares public- and private-sector salaries in technology.",
+      "link": "http://sector-salaries.heroku.com/"
+    },
+    {
+      "name": "Technup",
+      "description": "A Ruby on Rails app for finding technical job postings by commute time.",
+      "link": "http://technup.herokuapp.com/"
+    },
+    {
+      "name": "Chorivore",
+      "description": "A Ruby on Rails app for creating, rewarding, and completing chores shared with housemates.",
+      "link": "http://chorivore.herokuapp.com/"
+    }
+  ],
   "profiles": {
       "twitter": "https://twitter.com/alemosie",
       "github": "https://github.com/alemosie/",
       "linkedin": "https://www.linkedin.com/in/alexandrasiega",
       "tech_blog": "codeawan.wordpress.com"
   },
-  "interests" : {
-    "music": {
-      "instruments": ["ukulele"],
-      "favorites": ["Ben Sollee", "The Oh Hellos", "Beirut", "Shakey Graves", "Robyn"],
-      "work_playlist": "https://www.youtube.com/playlist?list=PLGNge8WTm937XTmW8jYh_Nk7XT3vv5pgV"
-    }
+  "inspiration": {
+    "people": {
+      "Megan Smith": "https://en.wikipedia.org/wiki/Megan_Smith",
+      "Tech ladies": {
+        "Tech Lady Hackathon": "http://techladyhackathon.org/",
+        "HearMeCode": "http://hearmecode.com/",
+        "Women Who Code NYC": "http://www.meetup.com/WomenWhoCodeNYC/"
+      },
+      "Ben Sollee": "https://www.youtube.com/watch?v=Lm14JKwnqkU"
+    },
+    "places": {
+      "18F": "https://18f.gsa.gov/",
+      "Civic Hall": "http://civichall.org/"
+    },
+    "things": {
+      "/r/DataIsBeautiful": "https://www.reddit.com/r/dataisbeautiful/",
+      "The Phantom Tollbooth": "https://books.google.com/books?id=gOth2bxRX54C&printsec=frontcover&dq=phantom+tollbooth&hl=en&sa=X&ved=0ahUKEwixtKuk0YLQAhWHeCYKHXAABiQQ6AEIHjAA#v=onepage&q&f=false",
+      "Dogspotting": "https://www.facebook.com/groups/dogspotting/"
+    },
+    "API idea + base code": "https://github.com/afeld/api.afeld.me"
   }
 }

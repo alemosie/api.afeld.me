@@ -20,7 +20,7 @@ resume = {
     },
     websites: {
       api: json['url'],
-      blog: json['profiles']['jux']['profile_url']
+      blog: json['profiles']
     },
     profiles: {
       twitter: json['profiles']['twitter']['username'],
@@ -30,12 +30,12 @@ resume = {
   work: [],
   education: [
     {
-      institution: um['school'],
+      institution: json["education"]["current"]['school']
       # TODO PR to support multiple degrees
-      area: 'BSE Computer Science Engineering',
-      studyType: 'BFA Dance',
-      startDate: um['start_date'],
-      endDate: um['end_date']
+      # area: 'BSE Computer Science Engineering',
+      # studyType: 'BFA Dance',
+      # startDate: um['start_date'],
+      # endDate: um['end_date']
     }
   ],
   skills: [
@@ -58,26 +58,26 @@ resume = {
   ]
 }
 
-jobs = json['employment']['coding'] + json['employment']['teaching']
+jobs = json['employment']
 
 # sort by jobs by last ended, then by last started, in descending order
-jobs.sort_by! do |job|
-  end_date = job['end_date'] || Time.now.strftime('%Y-%m-%d')
-  [end_date, json['start_date']]
-end
-jobs.reverse!
+# jobs.sort_by do |job|
+#   end_date = job['end_date'] || Time.now.strftime('%Y-%m-%d')
+#   [end_date, json['start_date']]
+# end
+# jobs.reverse!
 
-jobs.each do |empl|
-  hsh = {
-    company: empl['organization'],
-    position: empl['title'],
-    website: empl['url'],
-    startDate: empl['start_date'],
-    summary: empl['description']
-  }
-  hsh[:endDate] = empl['end_date'] if empl['end_date']
-  resume[:work] << hsh
-end
+# jobs.each do |empl|
+#   hsh = {
+#     company: empl['organization'],
+#     position: empl['title'],
+#     website: empl['url'],
+#     startDate: empl['start_date'],
+#     summary: empl['description']
+#   }
+#   hsh[:endDate] = empl['end_date'] if empl['end_date']
+#   resume[:work] << hsh
+# end
 
 File.open('resume.json', 'w') do |file|
   file.write(JSON.pretty_generate(resume))
