@@ -67,7 +67,3 @@ get %r{^/(index)?$} do
     wants.json { PROFILE_STR }       # => views/posts.rss.haml, also sets content_type to application/rss+xml
   end
 end
-
-get '/meet' do
-  erb :meet
-end
