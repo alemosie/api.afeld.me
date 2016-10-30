@@ -1,561 +1,111 @@
 {
-  "name": "Aidan Feldman",
-  "description": "Web developer by day, dancer by night.",
-  "url": "http://api.afeld.me",
-  "email": "aidan.feldman@gmail.com",
+  "name": "Alexandra Siega",
+  "description": "Data Scientist, web dabbler, civic tech + dog enthusiast",
+  "url": "http://alexandrasiega.com",
   "location": {
-    "city": "Brooklyn",
-    "state": "NY",
-    "country": "US"
-  },
-  "education": [
-    {
-      "school": "University of Michigan",
-      "location": {
-        "city": "Ann Arbor",
-        "state": "MI",
-        "country": "US"
-      },
-      "start_date": "2005-08",
-      "end_date": "2010-08",
-      "degrees": [
-        {
-          "title": "BSE",
-          "major": "Computer Science Engineering"
-        },
-        {
-          "title": "BFA",
-          "major": "Dance"
-        }
-      ]
+    "current": {
+      "city": "New York",
+      "state": "NY",
+      "country": "US"
     },
-    {
-      "school": "Oak Park and River Forest High School",
-      "location": {
-        "city": "Oak Park",
-        "state": "IL",
+    "previous": [
+      {
+        "city": "Washington",
+        "state": "DC",
         "country": "US"
       },
-      "start_date": "2001-08",
-      "end_date": "2005-06"
-    }
-  ],
+      {
+        "city": "Boston",
+        "state": "MA",
+        "country": "US"
+      }
+    ]
+  },
   "employment": {
-    "coding": [
+    "current": {
+      "name": "CKM Advisors",
+      "title": "Data Scientist",
+      "start_date": "2016-06-09",
+      "information": "https://www.ckmadvisors.com/"
+    },
+    "previous": [
       {
-        "organization": "18F",
-        "url": "https://18f.gsa.gov",
-        "title": "Innovation Specialist",
-        "description": "Building open source tools and apps for the federal government.",
-        "start_date": "2014-10-20",
-        "end_date": null
+        "name": "Upperline School of Code",
+        "title": "Intro to Software Engineering Instructor/Tutor",
+        "description": "Co-taught Intro to Software Engineering immersive bootcamp courses for high school students. Introduced students to full-stack web programming -- including Ruby fundamentals, HTML/CSS, Bootstrap/Materialize, and the Sinatra framework -- to build fully-fledged web applications in two weeks. As a tutor, created individualized learning materials and delivered one-on-one lessons in JavaScript and HTML/CSS.",
+        "start_date": "2016-06",
+        "end_date": "2016-08",
+        "information": "http://www.upperlinecode.com/"
       },
       {
-        "organization": "GitHub",
-        "url": "https://github.com",
-        "title": "Education Hacker",
-        "description": "Built tools, taught workshops, wrote documentation, and provided support to make GitHub better for teachers and students.",
-        "start_date": "2013-08",
-        "end_date": "2014-06"
-      },
-      {
-        "organization": "Artsy",
-        "url": "https://artsy.net",
-        "title": "Software Engineer (Contract)",
-        "description": "Front-end development in Backbone.js, as well as internal tools around metrics.",
-        "start_date": "2013-05",
-        "end_date": "2013-08"
-      },
-      {
-        "organization": "Jux",
-        "url": "https://jux.com",
-        "title": "Senior Web Developer",
-        "description": "Full-stack Ruby and JavaScript development; primarily responsible for the navigation, gallery view, and social features.",
-        "start_date": "2011-01",
-        "end_date": "2013-05"
-      },
-      {
-        "organization": "American Express Publishing",
-        "url": "http://www.amexpub.com",
-        "title": "Web Developer (Contract)",
-        "description": "Built CMS tools and microsites for FoodAndWine.com.",
-        "start_date": "2010-08",
-        "end_date": "2011-01"
-      }
-    ],
-    "teaching": [
-      {
-        "organization": "Cornell Tech",
-        "url": "https://docs.google.com/document/d/1-hk6GzhV1yHU1T0E7uqcdNTtvv3fuq1_WECQOWOT2zw/edit",
-        "title": "Adjunct Faculty",
-        "description": "Teaching the Startup Systems course, a core class for the Master of Engineering in Computer Science program, which covers web development from HTML to APIs to servers.",
-        "start_date": "2016-08",
-        "end_date": null
-      },
-      {
-        "organization": "New York University",
-        "url": "http://scps.nyu.edu/content/scps/faculty/faculty-profile.html?id=14293",
-        "title": "Adjunct Faculty",
-        "description": "Teaching an Advanced JavaScript class as part of SCPS (continuing education), as well as a graduate class at ITP called Building for Learning.",
+        "name": "US Department of Defense",
+        "title": "Analytic Product Lead/Language Analyst",
+        "description": "Designed, developed, and deployed cutting-edge tools and tradecraft to modernize analysis practices in support of U.S. foreign policy missions stateside and overseas. Managed customer and developer needs; created and delivered training events and materials across diverse teams. In addition to analytic development duties, analyzed large data sets and published reports on key issues for policy makers.",
         "start_date": "2012-06",
-        "end_date": null
-      },
-      {
-        "organization": "City University of New York",
-        "url": "https://github.com/cuny-nytech/syllabus",
-        "title": "Instructor",
-        "description": "Teaching a practical developer skills class to CS seniors, covering version control, web development, resume writing, etc.",
-        "start_date": "2014-09",
-        "end_date": "2015-05"
-      },
-      {
-        "organization": "General Assembly",
-        "url": "https://generalassemb.ly",
-        "title": "Instructor",
-        "description": "Taught JavaScript as part of the Front-End + Rails curriculum.",
-        "start_date": "2013-02",
-        "end_date": "2013-03"
+        "end_date": "2016-03",
+        "information": "http://www.defense.gov/"
       }
-    ],
-    "dance": [
+    ]
+  },
+  "education": {
+    "current" : {
+        "school": "Udacity",
+        "program": {
+            "name": "Data Analyst Nanodegree",
+            "information": "https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/udacity-dandsyllabus.pdf"
+        },
+        "location": {
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "US",
+          "online": true
+        },
+        "start_date": "2016-09"
+      },
+    "previous": [
       {
-        "organization": "Barkin/Selissen Project",
-        "director": [
-          "Kyla Barkin",
-          "Aaron Selissen"
-        ],
-        "url": "http://www.barkinselissenproject.com",
-        "start_date": "2014-03",
-        "end_date": null
+        "school": "Flatiron School",
+        "program": {
+            "name": "NYC Web Developer Program (3 month immersive)",
+            "information": "https://flatironschool.com/programs/nyc-web-developer-career-course/"
+        },
+        "location": {
+          "city": "New York",
+          "state": "NY",
+          "country": "US",
+          "online": false
+        },
+        "start_date": "2016-03",
+        "end_date": "2016-06"
       },
       {
-        "organization": "danceTactics Performance Group",
-        "director": "Keith Thompson",
-        "url": "http://dancetactics.org",
-        "start_date": "2012-05",
-        "end_date": null
-      },
-      {
-        "organization": "Artichoke Dance Company",
-        "director": "Lynn Neuman",
-        "url": "http://artichokedance.org",
-        "start_date": "2010-10",
-        "end_date": null
-      },
-      {
-        "organization": "Chavasse Dance & Performance",
-        "director": "Amy Chavasse",
-        "url": "http://chavassedanceandperformance.com",
-        "start_date": "2010-06",
-        "end_date": null
+        "school": "Middlebury College",
+        "program": {
+          "major": "International Studies - Russian and East European Studies",
+          "minor": "Italian"
+        },
+        "location": {
+          "city": "Middlebury",
+          "state": "VT",
+          "country": "US",
+          "online": false
+        },
+        "start_date": "2009-02",
+        "end_date": "2013-02"
       }
     ]
   },
   "profiles": {
-    "artsy": {
-      "username": "aidanfeldman",
-      "profile_url": "http://artsy.net/aidanfeldman/favorites"
-    },
-    "facebook": {
-      "username": "aidan.feldman",
-      "profile_url": "https://facebook.com/aidan.feldman"
-    },
-    "foursquare": {
-      "username": "aidanfeldman",
-      "profile_url": "https://foursquare.com/aidanfeldman"
-    },
-    "github": {
-      "username": "afeld",
-      "profile_url": "https://github.com/afeld"
-    },
-    "instagram": {
-      "username": "aidanfeldman",
-      "profile_url": "http://instagram.com/aidanfeldman"
-    },
-    "jux": {
-      "username": "aidan",
-      "profile_url": "http://afeld.me"
-    },
-    "medium": {
-      "username": "aidanfeldman",
-      "profile_url": "https://medium.com/@aidanfeldman"
-    },
-    "meetup": {
-      "username": "8818215",
-      "profile_url": "http://www.meetup.com/members/8818215/"
-    },
-    "speakerdeck": {
-      "username": "aidanfeldman",
-      "profile_url": "https://speakerdeck.com/aidanfeldman"
-    },
-    "stack_overflow": {
-      "username": "358804",
-      "profile_url": "http://stackoverflow.com/users/358804/aidan-feldman"
-    },
-    "twitter": {
-      "username": "aidanfeldman",
-      "profile_url": "https://twitter.com/aidanfeldman"
-    },
-    "vimeo": {
-      "username": "aidanfeldman",
-      "profile_url": "https://vimeo.com/aidanfeldman"
-    },
-    "youtube": {
-      "username": "alfgames",
-      "profile_url": "http://www.youtube.com/user/alfgames"
-    }
+      "twitter": "https://twitter.com/alemosie",
+      "github": "https://github.com/alemosie/",
+      "linkedin": "https://www.linkedin.com/in/alexandrasiega",
+      "tech_blog": "codeawan.wordpress.com"
   },
-  "projects": [
-    {
-      "title": "Empire Node 2015",
-      "description": "Organizer for NYC's Node.js conference.",
-      "url": "http://2015.empirenode.org/"
-    },
-    {
-      "title": "teachers_pet",
-      "description": "Command line tool to help teachers use GitHub in their classrooms.",
-      "url": "https://github.com/education/teachers_pet"
-    },
-    {
-      "title": "git-setup",
-      "description": "Easy Git setup.",
-      "url": "https://github.com/afeld/git-setup"
-    },
-    {
-      "title": "Tricle",
-      "description": "Automated metrics reporting via email.",
-      "url": "https://github.com/afeld/tricle"
-    },
-    {
-      "title": "Vittle",
-      "description": "A Chrome extension that shows previews of items on food ordering sites.",
-      "url": "https://chrome.google.com/webstore/detail/vittle/oijdfokmphhefjgnmjccmknllomobhdg"
-    },
-    {
-      "title": "Advanced JavaScript",
-      "description": "Interactive slides, course outline and resources for teaching Advanced JS.",
-      "url": "https://github.com/advanced-js/syllabus"
-    },
-    {
-      "title": "Backbone-Nested",
-      "description": "A plugin to make Backbone.js keep track of nested attributes.",
-      "url": "http://afeld.github.io/backbone-nested"
-    },
-    {
-      "title": "Coolest Thing All Week",
-      "description": "Mailing list for people to share the coolest thing they've seen in the past seven days.",
-      "url": "https://groups.google.com/forum/?fromgroups#!forum/coolest-thing-all-week"
-    },
-    {
-      "title": "JSONProxy",
-      "description": "Simple proxy and client library for doing cross-domain requests.",
-      "url": "http://jsonp.jit.su"
-    },
-    {
-      "title": "Hacker Hours",
-      "description": "Free office hours for programming help, running weekly+ since 09/2011.",
-      "url": "http://hackerhours.org"
-    },
-    {
-      "title": "Magickly",
-      "description": "Image manipulation API as a service/gem.",
-      "url": "http://magickly.afeld.me"
-    },
-    {
-      "title": "Mongoid-Locker",
-      "description": "Gem for document-level locking in MongoDB.",
-      "url": "https://github.com/afeld/mongoid-locker"
-    },
-    {
-      "title": "mustachify.me",
-      "description": "Automatic mustachifying of any image.",
-      "url": "http://mustachify.me"
-    },
-    {
-      "title": "Stringer",
-      "description": "Virtual stringed instrument, played with a Kinect.  Third place at NYC Music Hackday 2011.",
-      "url": "http://afeld.github.io/stringer"
+  "interests" : {
+    "music": {
+      "instruments": ["ukulele"],
+      "favorites": ["Ben Sollee", "The Oh Hellos", "Beirut", "Shakey Graves", "Robyn"],
+      "work_playlist": "https://www.youtube.com/playlist?list=PLGNge8WTm937XTmW8jYh_Nk7XT3vv5pgV"
     }
-  ],
-  "talks": [
-    {
-      "title": "Rewiring Government podcast: cloud.gov and the new marriage of policy and technology in government",
-      "date": "2016-09-14",
-      "url": "https://www.dobt.co/blog/interview-aidan-feldman/"
-    },
-    {
-      "title": "Search for Static Sites",
-      "date": "2016-08-04",
-      "url": "https://www.thenewdynamic.org/event/2016/08/04/search-for-static-sites-by-aidan-feldman/"
-    },
-    {
-      "title": "Learning Teaching",
-      "date": "2016-08-02",
-      "url": "https://docs.google.com/presentation/d/1owZ4sfp_qpy2L_23BPBeM8YEmZxeddSJBFgLDJLponM/edit"
-    },
-    {
-      "title": "Everything I Think I Understand About IT Compliance",
-      "date": "2016-07-25",
-      "url": "https://www.youtube.com/watch?v=-Nc4GXPxpQg&index=1&list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO"
-    },
-    {
-      "title": "Software Engineering Daily podcast: cloud.gov with Aidan Feldman",
-      "date": "2016-06-26",
-      "url": "http://softwareengineeringdaily.com/2016/06/26/cloud-gov-with-aidan-feldman/"
-    },
-    {
-      "title": "DevOps at Large: Modernizing apps and infrastructure in the federal government",
-      "date": "2016-05-18",
-      "url": "https://www.youtube.com/watch?v=X2Drua-AEBg"
-    },
-    {
-      "title": "18F on the Mozilla Science Lab Project Call",
-      "date": "2016-02-25",
-      "url": "https://www.youtube.com/watch?v=vBQrIDZKMK8"
-    },
-    {
-      "title": "Dabbling in Docker",
-      "date": "2016-01-25",
-      "url": "https://speakerdeck.com/aidanfeldman/dabbling-in-docker"
-    },
-    {
-      "title": "E Pluribus Unum: Building better software in the US government",
-      "date": "2015-07-14",
-      "url": "http://original.livestream.com/pivotallabs/video?clipId=pla_46c12eee-de95-410a-bcb5-54918f7edfae&utm_source=lslibrary&utm_medium=ui-thumb"
-    },
-    {
-      "title": "Interview on Thoughtbot's Giant Robots podcast: Open by Default",
-      "date": "2015-06-15",
-      "url": "http://giantrobots.fm/151"
-    },
-    {
-      "title": "Interview about Hacker Hours on the CodeNewbie Podcast",
-      "date": "2015-06-01",
-      "url": "http://www.codenewbie.org/podcast/hacker-hours"
-    },
-    {
-      "title": "Git, Graphically",
-      "date": "2015-05-18",
-      "url": "https://speakerdeck.com/aidanfeldman/git-graphically"
-    },
-    {
-      "title": "Introduction to Promises in JavaScript",
-      "date": "2015-04-28",
-      "url": "https://www.youtube.com/watch?v=KeQYjpckudA"
-    },
-    {
-      "title": "Magickly, Mustachio, & Stateless APIs",
-      "date": "2015-02-26",
-      "url": "https://www.youtube.com/watch?v=X3VdlBDCJSA"
-    },
-    {
-      "title": "Intro to Backbone Unit Testing",
-      "date": "2014-10-30",
-      "url": "http://www.youtube.com/watch?v=37lBmGVRVsQ"
-    },
-    {
-      "title": "How GitHub Does Collaboration",
-      "date": "2013-11-20",
-      "url": "https://github.com/afeld/gh_collab"
-    },
-    {
-      "title": "Git & GitHub, Up & Running",
-      "date": "2013-10-22",
-      "url": "https://gist.github.com/afeld/7096908"
-    },
-    {
-      "title": "Education the GitHub Way",
-      "date": "2013-10-12",
-      "url": "https://github.com/afeld/edu_the_gh_way"
-    },
-    {
-      "title": "JavaScript: the little language everyone loves to hate",
-      "date": "2013-09-30",
-      "url": "https://github.com/afeld/js-overview"
-    },
-    {
-      "title": "Getting Serious (with Front-End JavaScript)",
-      "date": "2013-07-08",
-      "url": "http://afeld.github.io/getting_serious/slides/"
-    },
-    {
-      "title": "Test to Learn",
-      "date": "2013-06-20",
-      "url": "http://afeld.github.io/test_to_learn/"
-    },
-    {
-      "title": "Web Development Basics (Git, MAMP, Wordpress and FTP)",
-      "date": "2013-05-13",
-      "url": "https://github.com/afeld/web_dev_basics"
-    },
-    {
-      "title": "MongoDB + Ruby Workshop",
-      "date": "2013-03-27",
-      "url": "https://github.com/afeld/mongo_ruby_workshop"
-    },
-    {
-      "title": "Hackathon Workshop",
-      "date": "2013-03-26",
-      "url": "https://github.com/afeld/hackathon_workshop/wiki"
-    },
-    {
-      "title": "Introduction to Backbone.js",
-      "date": "2013-03-11",
-      "url": "https://github.com/afeld/intro_to_backbone"
-    },
-    {
-      "title": "Single-Page App Architecture",
-      "date": "2013-03-07",
-      "url": "https://github.com/afeld/spaa"
-    },
-    {
-      "title": "Seven Languages is Seven Months: Ruby",
-      "date": "2012-10-24",
-      "url": "https://gist.github.com/afeld/3944262"
-    },
-    {
-      "title": "What Developers Want",
-      "description": "Talk and panelist on how to make APIs developer-friendly.  I did a slow jam.",
-      "event": "Business of APIs Conference 2012",
-      "date": "2012-10-17",
-      "url": "http://afeld.me/nerdery/816975"
-    },
-    {
-      "title": "Junior Developer panel",
-      "description": "Organizer and moderator of panel on how to get your first job as a programmer.",
-      "event": "NYC on Rails meetup",
-      "date": "2012-09-19",
-      "url": "http://afeld.me/nerdery/522101"
-    },
-    {
-      "title": "Learn2Code",
-      "event": "Hacking for Hustlers meetup",
-      "date": "2011-11-14",
-      "url": "http://afeld.me/nerdery/38274"
-    },
-    {
-      "title": "Animation with HTML5: An Overview",
-      "description": "A lightning talk about ways to do animation in HTML5 and CSS3.",
-      "date": "2010-12-30",
-      "url": "http://www.scribd.com/doc/46086316/Animation-with-HTML5-An-Overview"
-    },
-    {
-      "title": "Plano Real: How Fake Money Saved Brazil",
-      "description": "A lightning talk about Plano Real, a plan which stabilized the Brazilian economy in the mid-1990's.",
-      "date": "2010-12-30",
-      "url": "http://www.scribd.com/doc/46086444/Plano-Real-How-Fake-Money-Saved-Brazil"
-    },
-    {
-      "title": "Ruby Fibers",
-      "description": "A lightning talk about Ruby Fibers, a feature added in v1.9 that adds \"green thread\" support.",
-      "date": "2010-12-30",
-      "url": "http://www.scribd.com/doc/46086446/Ruby-Fibers"
-    },
-    {
-      "title": "Firesheep!",
-      "description": "A lightning talk about Firesheep, a Firefox plugin for doing \"sidejacking\" (a.k.a. breaking into other people's accounts).",
-      "date": "2010-12-30",
-      "url": "http://www.scribd.com/doc/46086447/firesheep"
-    }
-  ],
-  "writeups": [
-    {
-      "title": "How To Build A Mustached Message Service With Twilio MMS And Python",
-      "date": "2014-09-18",
-      "url": "https://www.twilio.com/blog/2014/09/how-to-build-a-mustached-message-service-with-twilio-mms-and-python.html"
-    },
-    {
-      "title": "Here Are the Most and Least Popular Citi Bike Stations in New York City",
-      "date": "2014-06-19",
-      "url": "http://www.nerve.com/infographics/most-popular-least-popular-citibike-stations-new-york-city"
-    },
-    {
-      "title": "Campus Party: Hacker do GitHub explica crescimento da 'rede social' de desenvolvedores",
-      "date": "2014-01-31",
-      "url": "http://info.abril.com.br/noticias/internet/2014/01/campus-party-hacker-do-github-explica-crescimento-da-rede-social-de-desenvolvedores.shtml"
-    },
-    {
-      "title": "Já estamos no quarto e penúltimo dia de conteúdos da Campus Party Brasil 2014!",
-      "date": "2014-01-31",
-      "url": "http://blog.campus-party.com.br/post/75170721637/ja-estamos-no-quarto-e-penultimo-dia-de-conteudos"
-    },
-    {
-      "title": "The Man of the (Hacker) Hour",
-      "date": "2013-08-22",
-      "url": "http://tech.gilt.com/post/59016326319/the-man-of-the-hacker-hour"
-    },
-    {
-      "title": "Hacker Hours with Aidan Feldman",
-      "date": "2013-08-10",
-      "url": "http://desmondrawls.com/2013/08/10/hacker-hours-with-aidan-feldman/"
-    },
-    {
-      "title": "Hacker Hours: The awesome grassroots meetup that teaches New Yorkers to code",
-      "date": "2012-05-14",
-      "url": "http://thenextweb.com/dd/2012/05/14/hacker-hours-the-awesome-grassroots-meetup-that-teaches-new-yorkers-to-code/"
-    }
-  ],
-  "writing": [
-    {
-      "title": "Open Source for New York City",
-      "date": "2016-02-24",
-      "url": "https://medium.com/@aidanfeldman/open-source-for-new-york-city-3c23e75cb43#.vb5sgcn1x"
-    },
-    {
-      "title": "What is jQuery?",
-      "type": "blog",
-      "publisher": "One Month",
-      "publish_date": "2015-09-17",
-      "url": "http://learn.onemonth.com/what-is-jquery"
-    },
-    {
-      "title": "How To Welcome New Coders To A Civic Hackathon",
-      "type": "blog",
-      "publisher": "18F Blog",
-      "publish_date": "2015-04-03",
-      "url": "https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/"
-    },
-    {
-      "title": "Learn Ruby on Rails as You Modify a Craigslist Clone",
-      "type": "tutorial",
-      "publisher": "Thinkful",
-      "publish_date": "2014-10-24",
-      "url": "http://www.thinkful.com/learn/ruby-on-rails-tutorial/"
-    },
-    {
-      "title": "Advanced JS class information for teachers",
-      "type": "blog",
-      "publisher": "self",
-      "publish_date": "2014-06-26",
-      "url": "https://github.com/advanced-js/syllabus/blob/master/meta.md"
-    },
-    {
-      "title": "GitHub Classroom Guide",
-      "type": "tutorial",
-      "publisher": "GitHub",
-      "publish_date": "2014-02-10",
-      "url": "https://education.github.com/guide"
-    },
-    {
-      "title": "Developing a Backbone.js Edge",
-      "type": "book",
-      "publisher": "Backstop Media",
-      "publish_date": "2013-04-10",
-      "url": "http://bleedingedgepress.com/our-books/backbone-js/"
-    },
-    {
-      "title": "Hacker Hours: The awesome grassroots meetup that teaches New Yorkers to code",
-      "type": "interview",
-      "publisher": "The Next Web",
-      "publish_date": "2012-05-14",
-      "url": "http://thenextweb.com/dd/2012/05/14/hacker-hours-the-awesome-grassroots-meetup-that-teaches-new-yorkers-to-code"
-    },
-    {
-      "title": "Hacker Olympics, the Un-Hackathon",
-      "type": "blog",
-      "publisher": "Twilio",
-      "publish_date": "2012-03-15",
-      "url": "http://www.twilio.com/blog/2012/03/hacker-olympics-the-un-hackathon-guest-post-by-aidan-feldman.html"
-    }
-  ]
+  }
 }
