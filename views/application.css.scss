@@ -60,6 +60,12 @@
   }
 }
 
+#headshot {
+  border:2px solid #a5a5a5;
+  margin-bottom:5px;
+  border-radius: 3px;
+}
+
 .button {
     border: none;
     color: white;
@@ -90,10 +96,6 @@
     padding-top: 10px;
   }
 
-  .meta-links {
-    position: absolute;
-  }
-
   .pair.simple {
     max-width: 300px;
   }
@@ -102,11 +104,25 @@
 @media (max-width: 570px) {
   .jsonpanel {
     font-size: .8em;
-    padding-top: 10px;
-    // padding-right: 20px;
+  }
+
+  .pair.simple {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jsonpanel {
+    font-size: .8em;
+
+    .val-inner {
+      display: inline-block;
+      max-width: 20em;
+    }
   }
 
   .meta-links {
+    margin-top: .2em;
     position: absolute;
   }
 
