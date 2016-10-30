@@ -8,6 +8,16 @@
     <script src="bower_components/Autolinker.js/dist/Autolinker.js"></script>
     <script src="bower_components/jsonpanel/jsonpanel.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <script>
       $(function(){
         var $json = $('.jsonpanel')
@@ -25,32 +35,40 @@
     </script>
   </head>
   <body>
-    <div class="jsonpanel"></div>
-    <ul class="meta-links">
-      <li>
-        <img src="./images/json.jpg" height="50%" width="50%" style="border:2px solid gray;">
-      </li>
-      <li>
-        <a href="https://twitter.com/alemosie" class="twitter-follow-button" data-show-count="false" data-show-screen-name="true">Follow @alemosie</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </li>
-      <li>
-        <a href="mailto:alexandra.siega@gmail.com">
-          <button type="button" class="button" style="background-color: green;">
-            <i class="material-icons small">email</i> Get in touch!
-          </button>
-        </a>
-      </li>
-      <li>
-        <a href="index.json">
-          <button type="button" class="button" style="background-color: purple;">
-            </i>View raw</i>
-          </button>
-        </a>
-      </li>
-    </ul>
-    <div class="profile">
-      <%= to_dl(PROFILE_HSH) %>
+    <div class="row">
+      <!-- <div class="col-xs-1"></div> -->
+      <div class="col-md-9">
+        <div class="jsonpanel">
+          <div class="profile">
+            <%= to_dl(PROFILE_HSH) %>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="meta-links">
+          <li>
+            <img src="./images/json.jpg" height="200px" width="180px" style="border:2px solid gray;margin-bottom:5px;">
+          </li>
+          <li>
+            <a href="https://twitter.com/alemosie" class="twitter-follow-button" data-show-count="false" data-show-screen-name="true">Follow @alemosie</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+          <li>
+            <a href="mailto:alexandra.siega@gmail.com">
+              <button type="button" class="button" style="background-color: green;">
+                <i class="material-icons small">email</i> Get in touch!
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="index.json">
+              <button type="button" class="button" style="background-color: purple;">
+                </i>View raw</i>
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
