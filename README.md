@@ -1,4 +1,4 @@
-# Aidan Feldman API
+# Alexandra Siega API
 
 ## To run locally
 
@@ -27,7 +27,7 @@ open resume.html
 
 ## To make your own
 
-1. Fork that sh\*t
+1. Fork it!
 2. Modify `views/index.json` and `views/index.html.erb`
 3. Push up to Heroku (using [custom buildpack](https://github.com/qnyp/heroku-buildpack-ruby-bower)), or wherever
 
