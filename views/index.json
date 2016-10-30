@@ -22,7 +22,7 @@
     ]
   },
   "skills" : {
-    "data_science": ["Python", "Pandas", "SQL"],
+    "data_science": ["Python", "Pandas", "Matplotlib", "SQL"],
     "web": ["Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
     "business": ["technical writing", "project management", "briefing", "mentorship/teaching"],
     "languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
