@@ -3,7 +3,6 @@ require 'sinatra/respond_to'
 require 'json'
 
 Sinatra::Application.register Sinatra::RespondTo
-# enable :logging
 
 configure do
   # copied from https://github.com/chriseppstein/compass/wiki/Sinatra-Integration
