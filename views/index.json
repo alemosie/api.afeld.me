@@ -22,23 +22,32 @@
     ]
   },
   "skills" : {
-    "data_science": ["Python", "Pandas", "Matplotlib", "SQL"],
+    "data_science": ["Python", "Pandas", "SQL", "Matplotlib", "Seaborn", "D3.js"],
     "web": ["Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
-    "business": ["technical writing", "project management", "briefing", "mentorship/teaching"],
+    "business": ["technical writing & documentation", "project management", "briefing", "mentorship/teaching"],
     "languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
   },
   "employment": {
-    "current": {
+    "current": [
+      {
       "name": "CKM Advisors",
       "title": "Data Scientist",
       "start_date": "2016-09",
       "information": "https://www.ckmadvisors.com/"
-    },
+      },
+      {
+        "name": "Upperline School of Code",
+        "title": "Intro to Programming Tutor",
+        "description": "Create individualized learning materials and deliver lessons in Ruby, JavaScript, and HTML/CSS.",
+        "start_date": "2016-12",
+        "information": "http://www.upperlinecode.com/"
+      }
+    ],
     "previous": [
       {
         "name": "Upperline School of Code",
-        "title": "Intro to Software Engineering Instructor/Tutor",
-        "description": "Co-taught Intro to Software Engineering immersive bootcamp courses for high school students. Introduced students to full-stack web programming -- including Ruby fundamentals, HTML/CSS, Bootstrap/Materialize, and the Sinatra framework -- to build fully-fledged web applications in two weeks. As a tutor, created individualized learning materials and delivered one-on-one lessons in JavaScript and HTML/CSS.",
+        "title": "Intro to Software Engineering Instructor",
+        "description": "Co-taught Intro to Software Engineering immersive bootcamp courses for high school students. Introduced students to full-stack web programming -- including Ruby fundamentals, HTML/CSS, Bootstrap/Materialize, and the Sinatra framework -- to build fully-fledged web applications in two weeks.",
         "start_date": "2016-06",
         "end_date": "2016-08",
         "information": "http://www.upperlinecode.com/"
