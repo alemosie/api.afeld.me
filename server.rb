@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/respond_to'
 require 'json'
+require 'compass'
 
 Sinatra::Application.register Sinatra::RespondTo
 

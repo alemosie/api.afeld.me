@@ -22,9 +22,10 @@
     ]
   },
   "skills" : {
-    "data_science": ["Python", "Pandas", "SQL", "Matplotlib", "Seaborn", "D3.js"],
-    "web": ["Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
+    "data_science": ["Python", "Pandas", "SQL", "Matplotlib", "Seaborn"],
+    "web": ["Django", "Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
     "business": ["technical writing & documentation", "project management", "briefing", "mentorship/teaching"],
+    "technical_tinkering": ["D3.js", "Flask", "AWS", "Machine learning -- classifiers"],
     "languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
   },
   "employment": {
