@@ -1,6 +1,4 @@
 /.sass-cache/
-/public/bower_components/
-/public/stylesheets/*.css
 resume.json
 images
 gh-pages/
