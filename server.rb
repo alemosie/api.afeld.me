@@ -2,6 +2,7 @@ require 'sinatra'
 require 'sinatra/respond_to'
 require 'json'
 require 'compass'
+require 'prawn'
 
 Sinatra::Application.register Sinatra::RespondTo
 
@@ -58,6 +59,11 @@ end
 
 get '/stylesheets/application' do
   scss :application
+end
+
+get '/resume' do
+  file = "public/images/Alexandra Siega - Resume.pdf"
+  send_file(file, :disposition => 'attachment')
 end
 
 get %r{^/(index)?$} do

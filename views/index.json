@@ -1,50 +1,40 @@
 {
   "name": "Alexandra Siega",
-  "bio": "Data scientist, web developer, civic tech + dog enthusiast",
+  "bio": "Data scientist, civic tech + dog enthusiast",
   "url": "http://alexandrasiega.com",
   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  "technologies": {
+    "data_science": ["Python", "Pandas", "Matplotlib", "Seaborn", "SQL", "MongoDB", "scikit-learn", "Plotly", "NLTK"],
+    "web": ["Ruby", "Ruby on Rails", "Sinatra", "Django", "JavaScript", "PostgreSQL", "Heroku"],
+    "misc": ["Git", "Regex"],
+    "tinkering": ["D3.js", "Flask", "AWS", "Node.js", "Ember.js"]
+  },
+  "skills" : {
+    "data_science": ["Data munging/sanitization", "Process mining", "Text classification", "API development", "Linear regression"],
+    "business": ["Analytical reporting", "Client management", "Technical writing & documentation", "Training & education", "Project management", "Briefing"],
+    "human_languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
+  },
+  "employment": {
     "current": {
-      "city": "New York",
-      "state": "NY",
-      "country": "US"
+      "name": "CKM Advisors",
+      "title": "Data Scientist",
+      "description": "Develop bespoke process mining, classification, and business analytics for Fortune 500 companies.",
+      "start_date": "2016-09",
+      "information": "https://www.ckmadvisors.com/"
     },
     "previous": [
       {
-        "city": "Washington",
-        "state": "DC",
-        "country": "US"
-      },
-      {
-        "city": "Boston",
-        "state": "MA",
-        "country": "US"
-      }
-    ]
-  },
-  "skills" : {
-    "data_science": ["Python", "Pandas", "SQL", "Matplotlib", "Seaborn"],
-    "web": ["Django", "Ruby", "Ruby on Rails", "Sinatra", "JavaScript", "Ember.js", "PostgreSQL", "Git", "Heroku"],
-    "business": ["technical writing & documentation", "project management", "briefing", "mentorship/teaching"],
-    "technical_tinkering": ["D3.js", "Flask", "AWS", "Machine learning -- classifiers"],
-    "languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
-  },
-  "employment": {
-    "current": [
-      {
-      "name": "CKM Advisors",
-      "title": "Data Scientist",
-      "start_date": "2016-09",
-      "information": "https://www.ckmadvisors.com/"
-      },
-      {
         "name": "Upperline School of Code",
         "title": "Intro to Programming Tutor",
-        "description": "Create individualized learning materials and deliver lessons in Ruby, JavaScript, and HTML/CSS.",
+        "description": "Created individualized learning materials and deliver lessons in Ruby, JavaScript, and HTML/CSS.",
         "start_date": "2016-12",
+        "end_date": "2017-06",
         "information": "http://www.upperlinecode.com/"
-      }
-    ],
-    "previous": [
+      },
       {
         "name": "Upperline School of Code",
         "title": "Intro to Software Engineering Instructor",
@@ -56,103 +46,68 @@
       {
         "name": "US Department of Defense",
         "title": "Analytic Product Lead/Language Analyst",
-        "description": "Designed, developed, and deployed cutting-edge tools and tradecraft to modernize analysis practices in support of U.S. foreign policy missions stateside and overseas. Managed customer and developer needs; created and delivered training events and materials across diverse teams. In addition to analytic development duties, analyzed large data sets and published reports on key issues for policy makers.",
+        "description": "Designed, developed, and deployed novel tools and tradecraft to modernize analysis processes. Analyzed large data sets and published reports on key issues for policy makers.",
         "start_date": "2012-06",
         "end_date": "2016-03",
         "information": "http://www.defense.gov/"
       }
     ]
   },
-  "education": {
-    "current" : {
-        "school": "Udacity",
-        "program": {
-            "name": "Data Analyst Nanodegree",
-            "information": "https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/udacity-dandsyllabus.pdf"
-        },
-        "location": {
-          "city": "Mountain View",
-          "state": "CA",
-          "country": "US",
-          "online": true
-        },
-        "start_date": "2016-09"
-      },
-    "previous": [
-      {
-        "school": "Flatiron School",
-        "program": {
-            "name": "NYC Web Developer Program (3 month immersive)",
-            "information": "https://flatironschool.com/programs/nyc-web-developer-career-course/"
-        },
-        "location": {
-          "city": "New York",
-          "state": "NY",
-          "country": "US",
-          "online": false
-        },
-        "start_date": "2016-03",
-        "end_date": "2016-06"
-      },
-      {
-        "school": "Middlebury College",
-        "program": {
-          "major": "International Studies - Russian and East European Studies",
-          "minor": "Italian"
-        },
-        "location": {
-          "city": "Middlebury",
-          "state": "VT",
-          "country": "US",
-          "online": false
-        },
-        "start_date": "2009-02",
-        "end_date": "2013-02"
-      }
-    ]
-  },
   "projects": [
     {
-      "name": "SectorSalaries",
-      "description": "An Ember.js and Rails API app that compares public- and private-sector salaries in technology.",
-      "link": "http://sector-salaries.heroku.com/"
+      "name": "Hot Peppers",
+      "description": "Creating the definitive dataset on hot peppers from throughout the world! A playground for learning linear regression and interactive visualization, and for practicing scalability and design.",
+      "link": "https://github.com/alemosie/hot_peppers"
     },
     {
-      "name": "Technup",
-      "description": "A Ruby on Rails app for finding technical job postings by commute time.",
-      "link": "http://technup.herokuapp.com/"
+      "name": "Spatial Join",
+      "description": "A civic tech hackathon project that combines public housing and voter  datasets to support voter registration efforts in NYC.",
+      "link": "https://github.com/nycivicengagementtable/spatial_join"
+    }
+  ],
+  "education": [
+    {
+      "school": "Flatiron School",
+      "program_name": "Web Developer Program (3 month immersive)",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "start_date": "2016-03",
+      "end_date": "2016-06",
+      "information": "https://flatironschool.com/programs/nyc-web-developer-career-course/"
     },
     {
-      "name": "Chorivore",
-      "description": "A Ruby on Rails app for creating, rewarding, and completing chores shared with housemates.",
-      "link": "http://chorivore.herokuapp.com/"
+      "school": "Middlebury College",
+      "program_name": "International Studies - Russian and East European Studies",
+      "location": {
+        "city": "Middlebury",
+        "state": "VT",
+        "country": "US"
+      },
+      "start_date": "2009-02",
+      "end_date": "2013-02",
+      "information": "http://www.middlebury.edu"
+
     }
   ],
   "profiles": {
       "twitter": "https://twitter.com/alemosie",
       "github": "https://github.com/alemosie/",
-      "linkedin": "https://www.linkedin.com/in/alexandrasiega",
-      "tech_blog": "codeawan.wordpress.com"
+      "linkedin": "https://www.linkedin.com/in/alexandrasiega"
   },
   "inspiration": {
-    "people": {
-      "Megan Smith": "https://en.wikipedia.org/wiki/Megan_Smith",
-      "Tech ladies": {
-        "Tech Lady Hackathon": "http://techladyhackathon.org/",
-        "HearMeCode": "http://hearmecode.com/",
-        "Women Who Code NYC": "http://www.meetup.com/WomenWhoCodeNYC/"
-      },
-      "Ben Sollee": "https://www.youtube.com/watch?v=Lm14JKwnqkU"
+    "tech": {
+      "Civic Tech": ["http://datafordemocracy.org/", "https://18f.gsa.gov/", "https://beta.nyc/"],
+      "Tech Ladies": ["https://twitter.com/HireTechLadies", "https://hearmecode.com/"]
     },
-    "places": {
-      "18F": "https://18f.gsa.gov/",
-      "Civic Hall": "http://civichall.org/"
-    },
-    "things": {
-      "/r/DataIsBeautiful": "https://www.reddit.com/r/dataisbeautiful/",
-      "The Phantom Tollbooth": "https://books.google.com/books?id=gOth2bxRX54C&printsec=frontcover&dq=phantom+tollbooth&hl=en&sa=X&ved=0ahUKEwixtKuk0YLQAhWHeCYKHXAABiQQ6AEIHjAA#v=onepage&q&f=false",
+    "art": {
+      "Neil Gaiman": "http://www.neilgaiman.com/",
+      "Ben Sollee": "https://www.youtube.com/watch?v=Lm14JKwnqkU",
+      "Harry Potter": "https://emilyscartoons.tumblr.com/",
       "Dogspotting": "https://www.facebook.com/groups/dogspotting/"
     },
-    "API idea + base code": "https://github.com/afeld/api.afeld.me"
+    "API idea & base code": "https://github.com/afeld/api.afeld.me"
   }
 }
