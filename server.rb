@@ -2,7 +2,6 @@ require 'sinatra'
 require 'sinatra/respond_to'
 require 'json'
 require 'compass'
-require 'prawn'
 
 Sinatra::Application.register Sinatra::RespondTo
 
