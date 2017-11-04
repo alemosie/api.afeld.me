@@ -20,6 +20,24 @@ end
 PROFILE_STR = File.read('./views/index.json').freeze
 PROFILE_HSH = JSON.parse(PROFILE_STR).freeze
 
+get '/stylesheets/application' do
+  scss :application
+end
+
+get "/" do
+  erb :index
+end
+
+get '/resume' do
+  file = "public/images/Alexandra Siega - Resume.pdf"
+  send_file(file, :disposition => 'attachment')
+end
+
+get "/api" do
+  content_type :json
+  File.read("views/index.json")
+end
+
 helpers do
   def to_html(val)
     case val
@@ -53,21 +71,5 @@ helpers do
     out << "</ul>\n"
 
     out
-  end
-end
-
-get '/stylesheets/application' do
-  scss :application
-end
-
-get '/resume' do
-  file = "public/images/Alexandra Siega - Resume.pdf"
-  send_file(file, :disposition => 'attachment')
-end
-
-get %r{^/(index)?$} do
-  respond_to do |wants|
-    wants.html { erb :index }      # => views/posts.html.haml, also sets content_type to text/html
-    wants.json { PROFILE_STR }       # => views/posts.rss.haml, also sets content_type to application/rss+xml
   end
 end

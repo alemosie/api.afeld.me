@@ -1,5 +1,5 @@
 {
-  "name": "Alexandra Siega",
+  "name": "Alexandra (Alex) Siega",
   "bio": "Data scientist, civic tech + dog enthusiast",
   "url": "http://alexandrasiega.com",
   "location": {
@@ -8,13 +8,13 @@
     "country": "US"
   },
   "technologies": {
-    "data_science": ["Python", "Pandas", "Matplotlib", "Seaborn", "SQL", "MongoDB", "scikit-learn", "Plotly", "NLTK"],
+    "data_science": ["Python", "Pandas", "Matplotlib", "Seaborn", "SQL", "MongoDB", "Selenium", "BeautifulSoup", "scikit-learn", "Plotly", "NLTK"],
     "web": ["Ruby", "Ruby on Rails", "Sinatra", "Django", "JavaScript", "PostgreSQL", "Heroku"],
     "misc": ["Git", "Regex"],
     "tinkering": ["D3.js", "Flask", "AWS", "Node.js", "Ember.js"]
   },
   "skills" : {
-    "data_science": ["Data munging/sanitization", "Process mining", "Text classification", "API development", "Linear regression"],
+    "data_science": ["Data munging/sanitization", "Web scraping", "Process mining", "Text classification", "API development", "Linear regression"],
     "business": ["Analytical reporting", "Client management", "Technical writing & documentation", "Training & education", "Project management", "Briefing"],
     "human_languages": ["Italian (intermediate)", "Russian (intermediate)", "Spanish (beginner)"]
   },
@@ -63,6 +63,11 @@
       "name": "Spatial Join",
       "description": "A civic tech hackathon project that combines public housing and voter  datasets to support voter registration efforts in NYC.",
       "link": "https://github.com/nycivicengagementtable/spatial_join"
+    },
+    {
+      "name": "SectorSalaries",
+      "description": "An Ember.js (front-end) and Rails API (back-end) app that compares public- and private-sector salaries in technology.",
+      "link": "http://sector-salaries.herokuapp.com/"
     }
   ],
   "education": [
